@@ -8,6 +8,10 @@ This Java 17 project demonstrates the Bridge pattern with two independent dimens
 - `src/test/java/bridge`: small dependency-free checks
 - `REPORT.md`: UML diagram and Clean Code discussion
 
+## Open in IntelliJ IDEA
+
+Open the folder containing `pom.xml` and `src`, then import it as a Maven project and select JDK 17. If a downloaded ZIP creates two folders with the same name, open the inner one. IntelliJ will then recognize `src/main/java` as production code and `src/test/java` as test code, so `BridgeTest` can access the classes in `src/main/java`.
+
 ## Run
 
 From the repository root in PowerShell with JDK 17:
